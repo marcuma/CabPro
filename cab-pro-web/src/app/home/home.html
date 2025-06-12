@@ -1,0 +1,49 @@
+<div class="header">
+  <img src="https://img.icons8.com/ios-filled/50/ffffff/taxi.png" alt="Cab Icon" style="vertical-align: middle; margin-right: 10px;">
+  CabPro
+</div>
+<div class="col-md-12">
+  <div class="panel">
+    <h4>Welcome to CabPro!</h4>
+    <p>Book your ride quickly and easily using the form below. Choose your pickup and drop-off points, select your cab type, and hit "Book Now" to get started.</p>
+  </div>
+</div>
+
+<div class="container container-custom">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="panel">
+        <form action="">
+          <table class="form-table">
+            <tr>
+              <td><label for="source" class="form-label">From</label></td>
+              <td>
+                <app-combo-box id="source"></app-combo-box>
+              </td>
+            </tr>
+            <tr>
+              <td><label for="destination" class="form-label">To</label></td>
+              <td>
+                <app-combo-box id="destination"></app-combo-box>
+              </td>
+            </tr>
+            <tr>
+              <td><label for="cabType" class="form-label">Cab Type</label></td>
+              <td>
+                <select id="cabType" class="form-select input-large">
+                  <option selected>Select cab type</option>
+                  @for (cab of cabs; track cab.id) {
+                    <option value="{{ cab.id }}">{{ cab.cabType }}</option>
+                  }
+                </select>
+              </td>
+            </tr>
+          </table>
+          <button type="submit" class="btn btn-primary mt-3">Book Now</button>
+        </form>
+      </div>
+    </div>
+    <script type="text/javascript" src="./app/home/js/geoapify.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </div>
+</div>

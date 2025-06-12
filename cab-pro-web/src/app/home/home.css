@@ -1,0 +1,39 @@
+html, body {
+  height: 100%;
+}
+
+.header {
+  background: linear-gradient(to right, #007bff, #00c6ff);
+  color: white;
+  padding: 2rem;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.panel {
+  background-color: #f8f9fa;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+label {
+  margin-top: 1rem;
+  horiz-align: left;
+}
+
+table.form-table {
+  width: 100%;
+  padding: 0.5rem;
+  vertical-align: middle;
+  horiz-align: left;
+}
+
+td {
+  padding: 0.5rem;
+  vertical-align: middle;
+  horiz-align: left;
+}
+
