@@ -3,7 +3,6 @@ import {Cab} from '../model/cab';
 import {FormsModule} from '@angular/forms';
 import {ComboBox} from '../combo-box/combo-box';
 import {HttpClient, HttpErrorResponse} from '@angular/common/http';
-import {AddressInfo} from '../model/address-info';
 
 @Component({
   selector: 'app-home',

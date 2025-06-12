@@ -55,7 +55,7 @@ export class ComboBox {
 
   handleData() {
     const autoCompleteItemsElement: HTMLElement | null = document.getElementById('datalist');
-    this.itemList.forEach(((item: any, index: any) => {
+    this.itemList.forEach(((item: any) => {
       const itemElement: HTMLOptionElement = document.createElement("option");
       itemElement.innerHTML = item.formatted;
       autoCompleteItemsElement?.append(itemElement);

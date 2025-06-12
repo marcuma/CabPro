@@ -5,6 +5,6 @@ import com.simplilearn.cabproapi.model.Cab;
 import java.util.List;
 
 public interface CabService {
-    public Cab getCabById(int id);
-    public List<Cab> getAllCabs();
+    Cab getCabById(int id);
+    List<Cab> getAllCabs();
 }

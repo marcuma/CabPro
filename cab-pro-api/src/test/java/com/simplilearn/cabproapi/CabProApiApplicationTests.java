@@ -14,7 +14,7 @@ class CabProApiApplicationTests {
     private CabController cabController;
 
     @Test
-    void contextLoads() throws Exception {
+    void contextLoads() {
         assertThat(cabController).isNotNull();
     }
 
