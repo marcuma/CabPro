@@ -1,8 +1,8 @@
 import {Component, OnInit} from '@angular/core';
 import {Cab} from '../model/cab';
 import {FormsModule} from '@angular/forms';
-import {ComboBox} from '../combo-box/combo-box';
 import {HttpClient, HttpErrorResponse} from '@angular/common/http';
+import {TripForm} from '../trip-form/trip-form';
 
 @Component({
   selector: 'app-home',
@@ -10,7 +10,7 @@ import {HttpClient, HttpErrorResponse} from '@angular/common/http';
   standalone: true,
   imports: [
     FormsModule,
-    ComboBox
+    TripForm
   ],
   styleUrl: './home.css'
 })

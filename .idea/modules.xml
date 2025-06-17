@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CabPro.iml" filepath="$PROJECT_DIR$/CabPro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cab-pro-api.main.iml" filepath="$PROJECT_DIR$/.idea/modules/cab-pro-api.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/cab-pro-web.iml" filepath="$PROJECT_DIR$/cab-pro-web.iml" />
     </modules>
   </component>
